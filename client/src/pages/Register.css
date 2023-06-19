@@ -1,0 +1,34 @@
+.register-form-title {
+      text-align: center;
+      margin: 40px auto 50px auto;
+      padding: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border-bottom : 1px solid black;
+      width : fit-content;
+      color: #2a3035;
+}
+
+.register-form {
+      width : 40%;
+      margin: 0 auto 0 auto;
+      padding : 40px 60px 30px 60px;
+      border : 1px solid #1d21338F;
+      box-shadow: 3px 3px 20px -1px #0C2D488F;
+      border-radius: 30px;
+      background-color: #f0f3ed;
+}
+
+.login-link  {
+      width: fit-content;
+      margin: 28px auto 0 auto;
+      padding: 3px;
+      text-align: right;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      opacity: 0.9;
+}
+
+.login-link:hover {
+      opacity: 1;
+      cursor: pointer;
+      text-decoration: underline;
+}

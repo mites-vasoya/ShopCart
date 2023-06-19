@@ -1,0 +1,31 @@
+.all-products-table {
+      /* border: 1px solid red; */
+      width: calc(100% - 45px);
+      margin-top: 55px;
+      margin-left: auto;
+      z-index: 0;
+}
+
+.all-products-prod-name {
+      white-space: normal;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5;
+      overflow: hidden;
+      text-align: justify;
+      text-justify: inter-word;
+      height : 97px;
+}
+
+.all-products-prod-desc {
+      white-space: normal;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5;
+      overflow: hidden;
+      text-align: justify;
+      text-justify: inter-word;
+      height : 97px;   
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width : 1000px) {
+      .product-card-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            justify-content: space-evenly;
+            column-gap: normal;
+      }
+}
+
+.product-card-grid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      justify-content: space-evenly;
+      column-gap: normal;
+}

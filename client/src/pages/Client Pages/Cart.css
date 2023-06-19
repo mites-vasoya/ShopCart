@@ -1,0 +1,509 @@
+.cart-payment-details {
+      visibility: visible;
+}
+
+.blur-cart-payment-details {
+      visibility: hidden;
+      height: 100px;
+}
+
+.cart-table-title {
+      margin-top: 1%;
+      margin-left: 4%;
+      padding: 1%;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 300;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      transition: font-weight 500 ease-in-out;
+      width: 90%;
+      text-decoration: underline;
+      color: #2a3035;
+      cursor: default;
+}
+
+.cart-cards-grid {
+      width: 90%;
+      height: 140px;
+      margin: 15px auto 0 auto;
+      display: flex;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgba(128, 128, 128, 0.548);
+      border-radius: 7px;
+      box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.35);
+      overflow: hidden;
+      cursor: default;
+}
+
+.cart-prod-card-img {
+      height: fit-content;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 0 6px;
+      box-sizing: border-box;
+}
+
+.cart-prod-card-details {
+      border-left: 1px solid rgba(88, 88, 88, 0.61);
+      border-right: 1px solid rgb(88, 88, 88, 0.61);
+      width: 70%;
+      box-sizing: border-box;
+      padding: 6px 5px;
+      display: flex;
+      flex-direction: column;
+}
+
+.cart-prod-card-details .prod-title {
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      white-space: normal;
+      text-align: justify;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      height: 50px;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      padding: 0 10px 2px 10px;
+      box-sizing: border-box;
+}
+
+.cart-prod-card-details .prod-price {
+      height: fit-content;
+      width: fit-content;
+      margin-top: 5px;
+      margin-bottom: 0%;
+      padding-left: 10px;
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgba(0, 0, 0, 0.729);
+}
+
+.cart-prod-card-details .prod-quantity-btn {
+      /* border: 2px solid violet; */
+      margin: 10px 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prod-quantity-btn .increase-quantity {
+      height: 30px;
+      width: fit-content;
+      border: 0px solid black;
+      background-color: rgb(0, 0, 0);
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px;
+      font-size: 18px;
+      color: white;
+      opacity: 0.9;
+      cursor: pointer;
+}
+
+.prod-quantity-btn .quantity {
+      width: 40px;
+      height: 30px;
+      border: 1px solid rgb(0, 0, 0);
+      background-color: rgb(253, 253, 253);
+      text-align: center;
+      font-size: 19px;
+      color: rgb(0, 0, 0);
+      opacity: 0.9;
+      box-sizing: border-box;
+}
+
+.prod-quantity-btn .decrease-quantity {
+      height: 30px;
+      width: fit-content;
+      border: 0px solid black;
+      background-color: rgb(0, 0, 0);
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px;
+      font-size: 18px;
+      color: white;
+      opacity: 0.9;
+      cursor: pointer;
+}
+
+.remove-item-cart-button {
+      height: 30px;
+      border: 0px solid black;
+      background-color: rgb(187, 39, 39);
+      border-radius: 3px;
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      opacity: 0.7;
+      transition: ease-in-out 0.15s;
+}
+
+.remove-item-cart-button:hover {
+      opacity: 1;
+}
+
+.cart-cards-grid .prod-total {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.prod-total .coupon-title {
+      font-size: 18px;
+      width: fit-content;
+      margin: 7px auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      color: rgb(17, 105, 17);
+}
+
+.prod-total .prod-subtotal {
+      text-align: justify;
+      font-size: 18px;
+      padding: 3px 13px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prod-total .prod-discount {
+      text-align: justify;
+      font-size: 18px;
+      padding: 3px 13px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prod-total .prod-coupon-total {
+      text-align: justify;
+      font-size: 18px;
+      padding: 3px 13px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart-grand-total {
+      width: 25%;
+      height: fit-content;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      margin-left: auto;
+      margin-right: 6%;
+      padding: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.342);
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px -1px#3f3f3fc0;
+}
+
+.cart-product-card {
+      width: 90%;
+      height: 750px;
+      margin-left: 3%;
+      padding: 10px 0;
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+}
+
+.cart-product-card::-webkit-scrollbar {
+      display: none;
+}
+
+.quantity-div {
+      width: 100px;
+      height: fit-content;
+      border: 1px solid black;
+}
+
+
+
+.cart-item-decrease-button {
+      width: 30px;
+      height: 30px;
+      left: 80px;
+      border: 0px solid black;
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px;
+      background-color: rgb(0, 0, 0);
+      font-size: 18px;
+      font-weight: 200;
+      color: white;
+      opacity: 0.7;
+}
+
+.cart-item-quantity {
+      height: 5px;
+      width: fit-content;
+}
+
+
+.grand-total-summary-title {
+      margin: 0px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(43, 43, 43);
+      opacity: 0.75;
+}
+
+.total-title, .shipping-charge-title {
+      margin-top: 10px;
+      margin-left: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      opacity: 0.6;
+}
+
+.coupon-message {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      width: fit-content;
+}
+
+.total-value, .shipping-charge-value {
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      opacity: 0.8;
+}
+
+.coupon-discount-title {
+      /* margin-top: 10px; */
+      margin-left: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      opacity: 0.6;
+}
+
+.coupon-discount-value {
+      /* margin-top: 10px; */
+      margin-right: 60px;
+      margin-left: auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      opacity: 0.8;
+}
+
+.grand-total-title {
+      margin-top: 10px;
+      margin-left: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      opacity: 0.6;
+}
+
+.grand-total-value {
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      opacity: 0.8;
+}
+
+.cart-page-checkout-button {
+      margin-top: 6%;
+}
+
+.checkout-button {
+      width: 90%;
+      height: 40px;
+      margin-left: 5%;
+      border: 1px solid black;
+      background-color: #2a3035;
+      color: #f0f3ed;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      opacity: 0.7;
+      transition: ease-in-out 0.15s;
+}
+
+.checkout-button:hover {
+      opacity: 1;
+}
+
+
+.cart-delivery-address {
+      margin-top: 1%;
+      margin-left: 1%;
+      margin-right: 1%;
+      border: 1px solid rgba(3, 3, 3, 0.301);
+      width: 48.5%;
+      height: fit-content;
+      padding-bottom: 30px;
+      /* background-color: #ffffff; */
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.425);
+}
+
+.cart-address-select {
+      margin-top: 20px;
+      margin-left: 20px;
+}
+
+.cart-order-address {
+      display: flex;
+      margin: 0 0 10px 0px;
+      background-color: #fbfff8;
+      padding: 15px 10px;
+      border-radius: 8px;
+      width: 400px;
+      box-shadow: 0px -3px 10px -3px rgba(0, 0, 0, 0.445);
+      cursor: default;
+      font-family: 'Questrial', sans-serif;
+}
+
+.cart-order-address .cart-remove-address-button {
+      margin: 0 0 0 auto;
+      width: fit-content;
+      height: fit-content;
+      opacity: 0.7;
+      transition: ease-in-out 0.1s;
+}
+
+.cart-order-address .cart-remove-address-button:hover {
+      opacity: 1;
+}
+
+.cart-order-address .cart-remove-address-button:active {
+      transform: scale(0.8);
+}
+
+.cart-delivery-all-address {
+      height: fit-content;
+      padding: 1% 50px 0 0;
+      width: 90%;
+      margin-left: 2%;
+      margin-top: 2%;
+}
+
+.delivery-address-title-div {
+      margin-top: 4%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 33px;
+      margin-left: 3%;
+      border-bottom: 2px solid black;
+      width: fit-content;
+
+}
+
+.delivery-address-content {
+      margin-left: 9%;
+      margin-top: 3%;
+      font-size: 18px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 100;
+      color: rgb(65, 65, 65);
+}
+
+.payment-details-payment-page {
+      margin-top: 30px;
+      margin-left: 3.5%;
+}
+
+.payment-details-payment-page-title {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 28px;
+      border-bottom: 2px solid black;
+      padding-bottom: 2px;
+      width: fit-content;
+}
+
+.payment-type-payment-page {
+      font-family: 'Questrial', sans-serif;
+      margin-top: 3.5%;
+      font-size: 12px;
+      padding-bottom: 2px;
+      width: fit-content;
+}
+
+.payment-select-payment-page {
+      outline: none;
+      width: 350px;
+      padding-left: 10px;
+      background-color: #FFFFFF;
+}
+
+.payment-info-div {
+      margin-top: 1%;
+      margin-right: 1%;
+      border: 1px solid rgba(3, 3, 3, 0.301);
+      width: 48.5%;
+      height: fit-content;
+      padding-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.425);
+}
+
+.payment-info-title {
+      margin-top: 4%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 33px;
+      margin-left: 3%;
+      border-bottom: 2px solid black;
+      width: fit-content;
+}
+
+.accepted-cards-icons {
+      /* border: 1px solid black; */
+      width: 50%;
+      height: fit-content;
+      margin-left: 3%;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cart-payment-select {
+      outline: none;
+      width: 350px;
+      border: 1px solid rgb(223, 18, 18);
+      padding-left: 10px;
+}
+
+
+.payment-button {
+      width: 50%;
+      height: 40px;
+      margin-left: 25%;
+      margin-top: 4%;
+      background-color: #2a3035;
+      box-shadow: 4px 5px 10px -2px rgb(121, 121, 121);
+      border-radius: 3px;
+      border: 1px solid #5e5e5e;
+      color: #f0f3ed;
+      font-size: 17px;
+      font-weight: 700;
+      background-position: center;
+      opacity: 0.7;
+      transition: ease-in-out 0.15s;
+}
+
+.payment-button:hover {
+      opacity: 1;
+}
+
+.payment-button:active {
+      background-color: #797979;
+      background-size: 100%;
+      transition: background 0s;
+}
+
+.cart-payment-details-form {
+      margin-top: 5%;
+      margin-left: 0%;
+      display: block;
+      background-color: #fbfff8;
+      padding: 30px 10px;
+      box-shadow: 0px -3px 10px -3px rgba(0, 0, 0, 0.445);
+      border-radius: 8px;
+}

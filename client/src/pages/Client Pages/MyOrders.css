@@ -1,0 +1,68 @@
+.buyers-orders-table-title {
+      margin-top: 1%;
+      margin-left: 4%;
+      padding: 1%;
+      text-align: center;
+      font-size: 35px;
+      cursor: pointer;
+      font-weight: 300;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      transition: font-weight 500 ease-in-out;
+      width: 90%;
+      text-decoration: underline;
+      border: #2a3035;
+      cursor: default;
+}
+
+.client-order-prod-name {
+      white-space: normal;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-align: justify;
+      text-justify: inter-word;
+      height : 40px
+}
+
+
+.buyers-orders-table {
+      margin-top: 1%;
+      margin-left: 4%;
+      overflow: hidden;
+      width: 92%;
+      height: 700px;
+      position: relative;
+}
+
+.buyer-orders-table-pagination {
+      position: absolute;
+      width: 50%;
+      bottom: 1px;
+      right: 1px;
+}
+
+.message-seller-button {
+      border: 1px solid black;
+      border-radius: 4px;
+      background-color: white;
+      height: 45px;
+      width: 90px;
+      transition: ease-in-out 0.1s;
+}
+
+.message-seller-button:hover {
+      background-color: #2a3035;
+      color: white;
+}
+
+.message-seller-button:active {
+      transform: scale(0.95);
+}
+
+.rate-text:hover {
+      text-decoration: underline;
+      cursor: pointer;
+      color: darkblue;
+}

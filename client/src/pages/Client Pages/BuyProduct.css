@@ -1,0 +1,295 @@
+.place-order-page {
+      display: flex;
+}
+
+.blur-place-order-page {
+      visibility: hidden;
+      height: 100px;
+}
+
+.product-detail-page {
+      height: fit-content;
+      width: 550px;
+      border-right: 1px solid rgb(189, 187, 187);
+      border-left: 1px solid rgb(189, 187, 187);
+      margin-top: 2.5%;
+      margin-left: 3%;
+      padding-bottom: 5px;
+}
+
+.buy-product-page-name {
+      margin-left: 10%;
+      margin-top: 8%;
+      width: 80%;
+      font-size: larger;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
+}
+
+.buy-product-page-amount {
+      margin-left: 10%;
+      margin-top: 4%;
+      width: fit-content;
+      font-size: 20px;
+      padding: 6px 10px;
+      font-weight: 600;
+      font-family: 'Roboto', sans-serif;
+      background-color: rgb(31, 133, 18);
+      color: aliceblue;
+}
+
+.order-summary {
+      width: 60%;
+      margin-left: 1.25%;
+}
+
+.summary-product-title {
+      width: 85%;
+      height: fit-content;
+      max-height: 40px;
+      white-space: normal;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      text-align: justify;
+      text-justify: inter-word;
+}
+
+.total-bill-summary {
+      border-bottom: 1px solid rgb(190, 190, 190);
+      height: fit-content;
+      max-height: 25%;
+      padding: 1%;
+      width: 100%;
+      margin-left: 2%;
+      margin-top: 3%;
+}
+
+.delivery-address {
+      border-right: 1px solid rgb(190, 190, 190);
+      height: fit-content;
+      padding: 1% 50px 0 0;
+      width: 50%;
+      margin-left: 2%;
+      margin-top: 2%;
+}
+
+.delivery-address-title {
+      font-family: 'Questrial', sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      border-bottom: 2px solid black;
+      padding-bottom: 2px;
+      width: fit-content;
+}
+
+.order-summary-title {
+      font-family: 'Questrial', sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      border-bottom: 2px solid black;
+      padding-bottom: 2px;
+      width: fit-content;
+}
+
+.products-total-amount {
+      width: 250px;
+      margin-top: 3%;
+      margin-right: -5.5%;
+      margin-left: auto;
+      margin-bottom: 60px;
+      font-family: 'Questrial', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      padding-bottom: 2px;
+      color: rgb(109, 109, 109);
+      text-align: end;
+      /* border : 1px solid seagreen */
+}
+
+.order-summary-details {
+      margin-top: 1%;
+      font-family: 'Questrial', sans-serif;
+      font-size: 18px;
+      font-weight: 200;
+      padding-bottom: 2px;
+      width: fit-content;
+      color: rgb(46, 46, 46);
+      width: 80%;
+}
+
+.order-address {
+      display: flex;
+      margin: 0 0 10px 0px;
+      background-color: #fbfff8;
+      padding: 15px 10px;
+      border-radius: 8px;
+      width: 400px;
+      box-shadow: 0px -3px 10px -3px rgba(0, 0, 0, 0.445);
+      cursor: default;
+      font-family: 'Questrial', sans-serif;
+
+}
+
+.order-address .remove-address-button {
+      margin: 0 0 0 auto;
+      width: fit-content;
+      height: fit-content;
+      opacity: 0.7;
+      transition: ease-in-out 0.1s;
+}
+
+.order-address .remove-address-button:hover {
+      opacity: 1;
+}
+
+.order-address .remove-address-button:active {
+      transform: scale(0.8);
+}
+
+.address-select {
+      margin-top: 20px;
+}
+
+.order-select-radio {
+      margin-top: 0.5%;
+      font-family: 'Questrial', sans-serif;
+      font-size: 18px;
+      font-weight: 200;
+      padding: 10px 5px 10px 5px;
+      width: fit-content;
+      color: rgb(46, 46, 46);
+      width: fit-content;
+      /* border: 1px solid salmon; */
+}
+
+.add-new-address-button {
+      border: 1px solid black;
+      width: fit-content;
+      height: fit-content;
+      padding: 8px 10px;
+      background-color: white;
+      border-radius: 5px;
+      margin-top: 5px;
+      transition: all 0.15s;
+}
+
+.add-new-address-button:hover {
+      background-color: #2a3035;
+      color: #fbfff8;
+}
+
+.add-new-address-button:active {
+      transform: scale(0.95);
+}
+
+.new-address-form {
+      border: 1px solid rgb(167, 167, 167);
+      background-color: #fbfff8;
+      border-radius: 4px;
+      box-shadow: 0px 0px 10px -8px black;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px 20px;
+}
+
+.new-address-form-button {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+}
+
+.new-address-form-button input[type="button"] {
+      border: 1px solid black;
+      width: 100px;
+      height: fit-content;
+      padding: 8px 10px;
+      background-color: white;
+      border-radius: 5px;
+      transition: all 0.15s;
+      margin-left: 10px;
+}
+
+.new-address-form-button input[type="button"]:hover {
+      background-color: #2a3035;
+      color: #fbfff8;
+}
+
+.new-address-form-button input[type="button"]:active {
+      transform: scale(0.95);
+}
+
+.payment-details {
+      height: fit-content;
+      padding: 1%;
+      width: 100%;
+      margin-left: 2%;
+      margin-top: 2%;
+}
+
+.payment-details-title {
+      font-family: 'Questrial', sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      border-bottom: 2px solid black;
+      padding-bottom: 2px;
+      width: fit-content;
+}
+
+.payment-type {
+      font-family: 'Questrial', sans-serif;
+      margin-top: 4%;
+      font-size: 12px;
+      padding-bottom: 2px;
+      width: fit-content;
+
+}
+
+.payment-details-form {
+      margin-top: 6%;
+      margin-left: 0%;
+      display: block;
+      background-color: #fbfff8;
+      padding: 30px 10px;
+      box-shadow: 0px -3px 10px -3px rgba(0, 0, 0, 0.445);
+      border-radius: 8px;
+}
+
+.payment-select {
+      outline: none;
+      width: 350px;
+      border: 0px solid rgb(31, 31, 31);
+      padding-left: 10px;
+      background-color: white;
+}
+
+.payment-button-placeorder-page {
+      width: 50%;
+      height: 40px;
+      margin-left: 25%;
+      margin-top: 4%;
+      margin-bottom: 40px;
+      background-color: #2a3035;
+      box-shadow: 4px 5px 10px -2px rgb(121, 121, 121);
+      border-radius: 3px;
+      border: 1px solid #5e5e5e;
+      color: #f0f3ed;
+      font-size: 17px;
+      font-weight: 700;
+      background-position: center;
+      opacity: 0.7;
+      transition: ease-in-out 0.15s;
+}
+
+.payment-button-placeorder-page:hover {
+      opacity: 1;
+}
+
+.payment-button-placeorder-page:active {
+      background-color: #797979;
+      background-size: 100%;
+      transition: background 0s;
+}

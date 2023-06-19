@@ -1,0 +1,128 @@
+.client-chat-area {
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 70vh;
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: #402623;
+      padding-bottom: 10px;
+      overflow-y: scroll;
+}
+
+.client-chat-area::-webkit-scrollbar {
+      display: none;
+}
+
+
+
+#scrollableDiv {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      border: 1px solid rgb(58, 58, 58);
+      border-radius: 3px;
+      height: 650px;
+      width: 80%;
+      display: flex;
+      flex-direction: column-reverse;
+      overflow: auto;
+      margin-left: auto;
+      margin-right: auto;
+      background-size: 50% 70vh;
+      background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-textured-solid-color-texture-background-picture-image_1313341.jpg");
+}
+
+.message-send-area {
+      height: fit-content;
+      display: block;
+      margin-top: 1%;
+      width: 50%;
+      margin-left: 25%;
+
+}
+
+.client-message-container {
+      height: 1000;
+      overflow: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      border: 1px solid black
+}
+
+.new-client-message-container {
+      height: fit-content;
+}
+
+
+.client-chat-box-button {
+      margin-top: 10px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      /* border: 1px solid black; */
+}
+
+.client-send-message-button {
+      width: 9%;
+      height: 50px;
+      margin-left: 0.3%;
+      outline: none;
+      border: 1px solid black;
+      font-size: 20px;
+      background-color: white;
+      border-radius: 3px;
+}
+
+.client-message-box {
+      width: 90%;
+      height: 46px;
+      outline: none;
+      border: 1px solid black;
+      font-size: 20px;
+      border-radius: 3px;
+}
+
+.message-from-other {
+      height: fit-content;
+      width: fit-content;
+      margin: 8px auto 8px 10px;
+      background-color: rgb(253, 253, 253);
+      padding: 7px 10px 6px 10px;
+      border-radius: 8px 8px 1px 8px;
+      box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.130);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: rgb(8, 0, 0);
+      max-width: 600px;
+      word-break: break-all;
+      overflow: visible;
+}
+
+.own-message {
+      height: fit-content;
+      width: fit-content;
+      margin: 8px 10px 8px auto;
+      background-color: rgb(193, 247, 192);
+      padding: 7px 10px 6px 10px;
+      border-radius: 8px 8px 1px 8px;
+      box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.130);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: rgb(8, 0, 0);
+      max-width: 600px;
+      word-break: break-all;
+      overflow: visible;
+}
+
+.client-sent-message-time {
+      font-size: 9px;
+      width: fit-content;
+      margin: 0 0 0 auto;
+}
+
+.client-time-of-received-message {
+      font-size: 9px;
+      width: fit-content;
+      margin: 0 auto 0 0;
+}

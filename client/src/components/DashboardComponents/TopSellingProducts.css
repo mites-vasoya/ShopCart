@@ -1,0 +1,15 @@
+#top-selling-title {
+      margin-top: 10px;
+      margin-left: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      width: fit-content;
+      border-bottom: 2px solid #f0f3ed;
+      transition: ease 0.2s;
+      cursor: default;
+}
+
+/* #top-selling-title:hover {
+      cursor: pointer;
+      color: #2a3035;
+      border-bottom: 2px solid #2a3035;
+} */

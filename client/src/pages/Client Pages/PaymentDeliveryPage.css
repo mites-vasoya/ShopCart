@@ -1,0 +1,266 @@
+.delivery-address-div {
+      margin-top: 1%;
+      margin-left: 1%;
+      margin-right: 1%;
+      /* border: 1px solid rgb(187, 150, 150); */
+      width: 48.5%;
+      height: fit-content;
+      padding-bottom: 30px;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+}
+
+.delivery-address-title-div {
+      margin-top: 4%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 33px;
+      margin-left: 3%;
+      border-bottom: 2px solid black;
+      width: fit-content;
+
+}
+
+.delivery-address-content {
+      margin-left: 9%;
+      margin-top: 3%;
+      font-size: 18px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 100;
+      color: rgb(65, 65, 65);
+}
+
+.payment-details-payment-page {
+      margin-top: 30px;
+      margin-left: 3.5%;
+}
+
+.payment-details-payment-page-title {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 28px;
+      border-bottom: 2px solid black;
+      padding-bottom: 2px;
+      width: fit-content;
+}
+
+.payment-type-payment-page {
+      font-family: 'Questrial', sans-serif;
+      margin-top: 3.5%;
+      font-size: 12px;
+      padding-bottom: 2px;
+      width: fit-content;
+}
+
+.payment-select-payment-page {
+      outline: none;
+      width: 30px;
+      padding-left: 10px;
+}
+
+.payment-info-div {
+      margin-top: 1%;
+      margin-right: 1%;
+      /* border: 1px solid rgb(187, 150, 150); */
+      background-color: #f1f1f1;
+      width: 48.5%;
+      height: fit-content;
+      padding-bottom: 30px;
+      border-radius: 8px;
+}
+
+.payment-info-title {
+      margin-top: 4%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 33px;
+      margin-left: 3%;
+      border-bottom: 2px solid black;
+      width: fit-content;
+}
+
+.accepted-cards-icons {
+      /* border: 1px solid black; */
+      width: 50%;
+      height: fit-content;
+      margin-left: 3%;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-holder-name {
+      /* border: 1px solid black; */
+      width: 50%;
+      height: fit-content;
+      margin-left: 3%;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.upi-payment-info {
+      /* border: 1px solid black; */
+      width: 50%;
+      height: fit-content;
+      margin-left: 3%;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.upi-payment-info input {
+      margin-top: 10px;
+      border: 1px solid rgb(156, 156, 156);
+      width: 400px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 15px;
+      text-align: start;
+}
+
+.upi-payment-info input:focus {
+      border: 1px solid rgb(0, 0, 0);
+      outline: none;
+}
+
+.card-holder-name input {
+      margin-top: 10px;
+      border: 1px solid rgb(156, 156, 156);
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.card-holder-name input:focus {
+      margin-top: 10px;
+      border: 1px solid rgb(0, 0, 0);
+      outline: none;
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.card-number {
+      /* border: 1px solid black; */
+      width: 50%;
+      height: fit-content;
+      margin-left: 3%;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-number input {
+      margin-top: 10px;
+      border: 1px solid rgb(156, 156, 156);
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.card-number input:focus {
+      margin-top: 10px;
+      border: 1px solid rgb(0, 0, 0);
+      outline: none;
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.card-expiry-date-year {
+      /* border: 1px solid black; */
+      width: 50%;
+      height: fit-content;
+      margin-left: 3%;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-expiry-date-year input {
+      margin-top: 10px;
+      border: 1px solid rgb(156, 156, 156);
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.card-expiry-date-year input:focus {
+      margin-top: 10px;
+      border: 1px solid rgb(0, 0, 0);
+      outline: none;
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.card-cvv-number {
+      /* border: 1px solid black; */
+      width: 50%;
+      height: fit-content;
+      margin-left: 3%;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-cvv-number input {
+      margin-top: 10px;
+      border: 1px solid rgb(156, 156, 156);
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.card-cvv-number input:focus {
+      margin-top: 10px;
+      border: 1px solid rgb(0, 0, 0);
+      outline: none;
+      width: 350px;
+      height: 35px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.payment-button {
+      width: 50%;
+      height: 40px;
+      margin-left: 25%;
+      margin-top: 4%;
+      background-color: #2a3035;
+      box-shadow: 4px 5px 10px -2px rgb(121, 121, 121);
+      border-radius: 3px;
+      border: 1px solid #5e5e5e;
+      color: #f4ede2;
+      font-size: 17px;
+      font-weight: 700;
+      background-position: center;
+      transition: background 0.15s;
+}
+
+.payment-button:hover {
+      border: 1px solid #000000;
+}
+
+.payment-button:active {
+      background-color: #797979;
+      background-size: 100%;
+      transition: background 0s;
+}

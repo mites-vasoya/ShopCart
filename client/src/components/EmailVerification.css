@@ -1,0 +1,90 @@
+.email-ver-card {
+      width: 20%;
+      height: 30%;
+      z-index: 15;
+      position: fixed;
+      top: 27%;
+      left: 40%;
+      border-radius: 12px;
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background: rgba(34, 34, 34, 0.678);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(8.1px);
+      -webkit-backdrop-filter: blur(8.1px);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      padding: 5px;
+      
+}
+
+.email-ver-card p {
+      text-align: center;
+      /* border: 1px solid white; */
+      margin-left: 0px;
+      margin-top: 10px;
+      font-size: 25px;
+}
+
+.email-ver-email-icon {
+      font-size: 90px;
+      width: fit-content;
+      height: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -18px;
+}
+
+
+.email-ver-email-icon img {
+      width: 160px;
+      height: 130px;
+}
+
+.email-text-box {
+      width: 100%;
+}
+
+.email-text-box input {
+      width: 92%;
+      height: 35px;
+      padding: 0px 10px;
+      font-size: 18px;
+      margin-top: 0px;
+      margin-left: 0.9%;
+      color: black;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 1px;
+      background-color: aliceblue;
+}
+
+.email-ver-buttons input[type="button"] {
+      margin-top: 15px;
+      margin-left: 0.9%;
+      outline: none;
+      border: 0px solid salmon;
+      width: 48.5%;
+      height: 35px;
+      background-color: aliceblue;
+      transition: ease-in-out 0.15s;
+      font-weight: 600;
+}
+
+.email-ver-buttons #send-link-btn:hover {
+      background-color: rgb(37, 99, 25);
+      color: white;
+      border-radius: 3px;
+}
+
+.email-ver-buttons #send-link-btn:active {
+      transform: scale(0.93);
+}
+
+.email-ver-buttons #back-btn:hover {
+      background-color: rgb(126, 0, 0);
+      color: white;
+      border-radius: 3px;
+}
+
+.email-ver-buttons #back-btn:active {
+      transform: scale(0.93);
+}
